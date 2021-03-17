@@ -3,6 +3,7 @@ version: '3'
 services:
   jenkins:
     image: avsoftware/jenkins:latest
+    user: root
     environment:
       #- JAVA_OPTS=-Dhudson.footerURL=http://URL>
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false -Duser.timezone=Europe/London
