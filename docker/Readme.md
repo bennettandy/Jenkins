@@ -3,3 +3,7 @@ This enables us to run the Android build inside an android agent "androidsdk/and
 
 
 Container Build https://github.com/bennettandy/Jenkins
+
+Needs to run as user: root to have access to docker.sock
+
+Tested on QNAP Container Station and Windows 10 Docker
